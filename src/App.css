@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+.root{
+  height: 90vh;
+  width: 80vw;
+  background: rgb(63, 103, 63);
+  color: #fff;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-top: 50px;
+  border-radius: 30px;
+  overflow: scroll;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+}
+
+.hero-input{
+  height: 6vh;
+  width: 40vw;
+  border-radius: 10px;
+}
+.add-btn{
+  margin-left: 30px;
+  height: 6vh;
+  width: 10vh;
+  border-radius: 10px;
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+}
+
+.todo-container{
+ 
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px;
+}
+.del-button{
+  background: #ff0000;
+  width: 10vw;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.todo-check{
+  height: 20px;
+  width: 20px;
+}
+.completed {
+  background: grey;
+}
+aside{
+  height: 90vh;
+  width: 20vw;
+  background: rgb(62, 64, 62);
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  /* border-radius: 30px; */
+  overflow: scroll;
+}
+.main{
+  display: flex;
+}
+
+/* aside h1{
+  fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+  animation: stroke-offset 5.5s infinite linear;
+} */
+
+
